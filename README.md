@@ -1,7 +1,7 @@
 # Trappels
 Trappels 
 
-Speed: 60 hours for 24 bits
+Speed: 60 hours for 24 bits Classical compter
 
 Algorithm Trappels:
 
