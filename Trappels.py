@@ -769,7 +769,7 @@ class encypthion_class:
                                                    
                                                     #print(Times2)
                                                     
-                                                                    if Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and Combination2[Times:Times+3]==Calculus[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res3==0 and long2==blocks:
+                                                                    if Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and Combination2[Times:Times+3]==Combination2[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res3==0 and long2==blocks:
                                                                         res3=1
                                                                 
                                                                     elif Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and res2==0 and res3==0 and Times2!=Times and long2==blocks:
