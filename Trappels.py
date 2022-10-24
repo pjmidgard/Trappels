@@ -295,12 +295,13 @@ class encypthion_class:
                                                             while Times2!=21:
                                                                 Times2+=3
                                                    
-                                                    #print(Times2)
                                                     
-                                                                if Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and Calculus[Times:Times+3]==Calculus[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res3==0 and long2==blocks:
-                                                                    res3=1
+                                                    
+                                                                if Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and Calculus[Times:Times+3]==Calculus[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res2==0 and long2==blocks:
+                                                                    res2=1
+
                                                                 
-                                                                elif Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and res2==0 and res3==0  and Times2!=Times and long2==blocks:
+                                                                elif Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and res2==0 and Times2!=Times and long2==blocks:
                                                                     Combination1+=1
                                                                     Combination3=format(Combination1,'022b')
                                                                 
@@ -769,10 +770,10 @@ class encypthion_class:
                                                    
                                                     #print(Times2)
                                                     
-                                                                    if Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and Combination2[Times:Times+3]==Combination2[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res3==0 and long2==blocks:
-                                                                        res3=1
+                                                                    if Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and Combination2[Times:Times+3]==Combination2[Times3:Times3+3]  and Times!=Times3 and Times2!=Times and Times2!=Times3 and res2==0 and long2==blocks:
+                                                                        res2=1
                                                                 
-                                                                    elif Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and res2==0 and res3==0 and Times2!=Times and long2==blocks:
+                                                                    elif Combination2[Times:Times+3]==Combination2[Times2:Times2+3] and res2==0 and Times2!=Times and long2==blocks:
                                                                         Combination1+=1
                                                                         Combination3=format(Combination1,'022b')
                                                                         Combination3="0"+Combination3
