@@ -719,6 +719,7 @@ class encypthion_class:
                                                 Combination5=0
                                                 if Calculus[0:1]=="1":
                                                     Calculus=size_data3[block:block+25]
+                                                    block+=25
                                                     Calculus=Calculus[1:]
                                                     long2=len(Calculus)
                                                     
