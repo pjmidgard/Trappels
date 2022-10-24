@@ -290,7 +290,7 @@ class encypthion_class:
                                                     
                                                         while Times!=21:
                                                             Times+=3
-                                                            Times2-=3
+                                                            Times2=-3
                                                 
                                                             while Times2!=21:
                                                                 Times2+=3
@@ -763,7 +763,7 @@ class encypthion_class:
                                                     
                                                             while Times!=21:
                                                                 Times+=3
-                                                                Times2-=3
+                                                                Times2=-3
                                                 
                                                                 while Times2!=21:
                                                                     Times2+=3
