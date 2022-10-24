@@ -311,6 +311,8 @@ class encypthion_class:
                                                                 
                                                                 
                                                                     res9="0"+Combination3
+                                                                    res5=1
+                                                                    res1=1
                                                             
                                                                 
                                                     
