@@ -306,6 +306,10 @@ class encypthion_class:
                                                                     Combination3=format(Combination1,'022b')
                                                                 
                                                                     res2=1
+
+                                                                if Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and Calculus[Times:Times+3]==Calculus[Times3:Times3+3] and Combination2==Calculus and res1==0 and  Times2!=Times and  long2==blocks:
+                                                                
+                                                                    res1=1
                                                     
             
                                                                 elif Calculus[Times:Times+3]==Calculus[Times2:Times2+3] and Combination2==Calculus and res1==0 and  Times2!=Times and  long2==blocks:
@@ -782,7 +786,7 @@ class encypthion_class:
                                                                         res2=1
                                                     
             
-                                                                    elif Combination3==Calculus and res1==0  and  long2==blocks:
+                                                                    if Combination3==Calculus and res1==0  and  long2==blocks:
                                                                 
                                                                 
                                                                         res9=Combination2
