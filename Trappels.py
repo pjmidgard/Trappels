@@ -891,8 +891,8 @@ class encypthion_class:
                                 
                               
                                 
-                                #import paq
-                                #jl= paq.compress(jl)
+                             
+                                
                              
                                 
                                
