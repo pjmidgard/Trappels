@@ -720,6 +720,7 @@ class encypthion_class:
                                                 res5=0
                                                 limit_find=0
                                                 Combination5=0
+                                                Calculus=size_data3[block:block+1]
                                                 if Calculus[0:1]=="1":
                                                     Calculus=size_data3[block:block+25]
                                                     block+=25
