@@ -430,8 +430,7 @@ class encypthion_class:
                                 
                               
                                 
-                                #import paq
-                                #jl= paq.compress(jl)
+                                
                              
                                 
                                
@@ -524,8 +523,7 @@ class encypthion_class:
                        # Read the whole file at once
                         
                         data = binary_file.read()
-                        import paq
-                        data= paq.decompress(data)
+                        
                         
 
                         
